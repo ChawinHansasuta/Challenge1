@@ -1,0 +1,116 @@
+*{
+    font-family: 'Red Hat Display', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent-container{
+    background-image: url(images/pattern-background-desktop.svg);
+    background-color: hsl(225, 100%, 94%);
+    max-width: 1440px;
+    padding: 6rem 0;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+.child-container{
+    background-color: white;
+    border-radius: 15px;
+    height: auto;
+    width: 450px;
+    margin: auto;
+    box-shadow: 5px 20px 50px hsl(224, 23%, 55%);
+    overflow: hidden;
+    text-align: center;
+}
+
+.text-holder{
+    padding: 40px 50px 0;
+    text-align: center;
+}
+
+.text-holder h2{
+    font-size: 1.8em;
+}
+
+.text-content{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: grey;
+}
+
+.plan-holder{
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+    width: 350px;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px 0;
+}
+
+.plan-text{
+    margin-left: -70px;
+    line-height: 30px;
+}
+
+.plan-text p{
+    color: grey;
+}
+
+.plan-change a:link{
+    color: hsl(223, 100%, 38%);
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.plan-change a:visited{
+    color: hsl(223, 100%, 38%);
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.plan-change a:hover{
+    color: hsl(283, 32%, 64%);
+    text-decoration: none;
+}
+
+.plan-change a:active{
+    color: hsl(283, 32%, 64%);
+    text-decoration: none;
+}
+
+.payment-holder{
+    height: 100px;
+    display: flex;
+}
+
+.button {
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    font-weight: bold;
+    margin: auto;
+    padding: 15px 80px;
+    border-radius: 10px;
+    border-style: none;
+    box-shadow: 0 10px 30px hsl(247, 63%, 69%);
+}
+
+.cancel-holder{
+    margin-bottom: 50px;
+}
+
+.cancel:link, .cancel:visited{
+    color: grey;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.cancel:hover, .cancel:active{
+    color: black;
+    text-decoration: none;
+}
+
